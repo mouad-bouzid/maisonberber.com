@@ -313,26 +313,18 @@ p{margin:0}a{color:inherit;text-decoration:none}button,input,select{font:inherit
       <a class="link-arrow" href="tours.html">Browse Ourika Valley tours <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
     </div>
 
-    <div class="rev-placeholder-note" style="max-width:70ch;margin-bottom:1.75rem">
+    <!-- <div class="rev-placeholder-note" style="max-width:70ch;margin-bottom:1.75rem">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg>
       <span><strong>Example structure.</strong> The reviews. ghi fake!!!!!!!!</span>
-    </div>
+    </div> -->
 
-    <!-- Optional filter – wire to JS if you add real data -->
-    <div class="rev-filter" role="group" aria-label="Filter reviews by trip">
-      <button type="button" aria-pressed="true" data-rev-filter="all">All experiences</button>
-      <button type="button" aria-pressed="false" data-rev-filter="ourika">Ourika Valley</button>
-      <button type="button" aria-pressed="false" data-rev-filter="setti">Setti Fatma</button>
-      <button type="button" aria-pressed="false" data-rev-filter="trek">Atlas trekking</button>
-    </div>
-
-    <div class="rev-grid" data-rev-grid>
-      <!-- Card 1 -->
-      <article class="rev-card rev-card--example" data-rev-trip="ourika">
+        <div class="rev-grid" data-rev-grid>
+      <!-- Review 1 -->
+      <article class="rev-card">
         <div class="rev-card__head">
           <div class="rev-card__who">
-            <span class="rev-card__name">Guest name</span>
-            <span class="rev-card__trip">Ourika Valley guided tour</span>
+            <span class="rev-card__name">Nathalie JAN</span>
+            <span class="rev-card__trip">Google review</span>
           </div>
           <span class="rev-card__stars" aria-label="5 out of 5 stars">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 17.3-6.2 3.7 1.6-7L2 9.2l7.1-.6L12 2l2.9 6.6 7.1.6-5.4 4.8 1.6 7z"/></svg>
@@ -342,22 +334,22 @@ p{margin:0}a{color:inherit;text-decoration:none}button,input,select{font:inherit
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 17.3-6.2 3.7 1.6-7L2 9.2l7.1-.6L12 2l2.9 6.6 7.1.6-5.4 4.8 1.6 7z"/></svg>
           </span>
         </div>
-        <p class="rev-card__text">Replace this paragraph with the guest's own words about their Ourika Valley excursion, the scenery, the guide and the overall experience.</p>
+        <p class="rev-card__text">Nous avons passé un moment unique et inoubliable dans le village. Les explications et la visite de Mohamed ont été riches. C’est puissant de se retrouver au sein de paysages si grandioses. Et l’accueil et le couscous de sa mère dans leur maison était un moment de partage rare et chaleureux. Merci infiniment.</p>
         <div class="rev-card__foot">
-          <span class="rev-card__source">
+          <a class="rev-card__source" href="https://www.google.com/maps/place/maison+berber+ait+lhsen/data=!4m2!3m1!1s0x486266388935ddd:0x99e505e3918634ea" target="_blank" rel="noopener noreferrer">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/><path d="M3.6 9h16.8M3.6 15h16.8"/></svg>
             Google
-          </span>
-          <span>Date</span>
+          </a>
+          <span>il y a 2 semaines</span>
         </div>
       </article>
 
-      <!-- Card 2 -->
-      <article class="rev-card rev-card--example" data-rev-trip="setti">
+      <!-- Review 2 -->
+      <article class="rev-card">
         <div class="rev-card__head">
           <div class="rev-card__who">
-            <span class="rev-card__name">Guest name</span>
-            <span class="rev-card__trip">Setti Fatma waterfalls walk</span>
+            <span class="rev-card__name">Pasquale Iazzetta</span>
+            <span class="rev-card__trip">Local Guide</span>
           </div>
           <span class="rev-card__stars" aria-label="5 out of 5 stars">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 17.3-6.2 3.7 1.6-7L2 9.2l7.1-.6L12 2l2.9 6.6 7.1.6-5.4 4.8 1.6 7z"/></svg>
@@ -367,69 +359,46 @@ p{margin:0}a{color:inherit;text-decoration:none}button,input,select{font:inherit
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 17.3-6.2 3.7 1.6-7L2 9.2l7.1-.6L12 2l2.9 6.6 7.1.6-5.4 4.8 1.6 7z"/></svg>
           </span>
         </div>
-        <p class="rev-card__text">Replace this paragraph with the guest's own words about the Setti Fatma waterfalls, the hike, the riverside lunch and the local guidance.</p>
+        <p class="rev-card__text">one of the greatest experiences to visit the berber village, with its beautyfull surrounding, the friendly peapke, excellent food .. wo derfull .. and so many model cats</p>
         <div class="rev-card__foot">
-          <span class="rev-card__source">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 10h.01M16 10h.01M8.5 15a4 4 0 0 0 7 0"/></svg>
-            Tripadvisor
-          </span>
-          <span>Date</span>
-        </div>
-      </article>
-
-      <!-- Card 3 -->
-      <article class="rev-card rev-card--example" data-rev-trip="trek">
-        <div class="rev-card__head">
-          <div class="rev-card__who">
-            <span class="rev-card__name">Guest name</span>
-            <span class="rev-card__trip">Atlas Mountains trekking</span>
-          </div>
-          <span class="rev-card__stars" aria-label="5 out of 5 stars">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 17.3-6.2 3.7 1.6-7L2 9.2l7.1-.6L12 2l2.9 6.6 7.1.6-5.4 4.8 1.6 7z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 17.3-6.2 3.7 1.6-7L2 9.2l7.1-.6L12 2l2.9 6.6 7.1.6-5.4 4.8 1.6 7z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 17.3-6.2 3.7 1.6-7L2 9.2l7.1-.6L12 2l2.9 6.6 7.1.6-5.4 4.8 1.6 7z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 17.3-6.2 3.7 1.6-7L2 9.2l7.1-.6L12 2l2.9 6.6 7.1.6-5.4 4.8 1.6 7z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 17.3-6.2 3.7 1.6-7L2 9.2l7.1-.6L12 2l2.9 6.6 7.1.6-5.4 4.8 1.6 7z"/></svg>
-          </span>
-        </div>
-        <p class="rev-card__text">Replace this paragraph with the guest's own words about the mountain trek, the Berber village visit, the local culture and the guide's knowledge.</p>
-        <div class="rev-card__foot">
-          <span class="rev-card__source">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="m8 12 3 3 5-6"/></svg>
-            Direct guest
-          </span>
-          <span>Date</span>
-        </div>
-      </article>
-
-      <!-- Card 4 -->
-      <article class="rev-card rev-card--example" data-rev-trip="ourika">
-        <div class="rev-card__head">
-          <div class="rev-card__who">
-            <span class="rev-card__name">Guest name</span>
-            <span class="rev-card__trip">Marrakech day trip</span>
-          </div>
-          <span class="rev-card__stars" aria-label="5 out of 5 stars">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 17.3-6.2 3.7 1.6-7L2 9.2l7.1-.6L12 2l2.9 6.6 7.1.6-5.4 4.8 1.6 7z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 17.3-6.2 3.7 1.6-7L2 9.2l7.1-.6L12 2l2.9 6.6 7.1.6-5.4 4.8 1.6 7z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 17.3-6.2 3.7 1.6-7L2 9.2l7.1-.6L12 2l2.9 6.6 7.1.6-5.4 4.8 1.6 7z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 17.3-6.2 3.7 1.6-7L2 9.2l7.1-.6L12 2l2.9 6.6 7.1.6-5.4 4.8 1.6 7z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 17.3-6.2 3.7 1.6-7L2 9.2l7.1-.6L12 2l2.9 6.6 7.1.6-5.4 4.8 1.6 7z"/></svg>
-          </span>
-        </div>
-        <p class="rev-card__text">Replace this paragraph with the guest's own words about the day trip from Marrakech, the transport, the guide and the overall value of the experience.</p>
-        <div class="rev-card__foot">
-          <span class="rev-card__source">
+          <a class="rev-card__source" href="https://www.google.com/maps/place/maison+berber+ait+lhsen/data=!4m2!3m1!1s0x486266388935ddd:0x99e505e3918634ea" target="_blank" rel="noopener noreferrer">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/><path d="M3.6 9h16.8M3.6 15h16.8"/></svg>
             Google
-          </span>
-          <span>Date</span>
+          </a>
+          <span>il y a 2 semaines</span>
         </div>
       </article>
+    </div>
 
+    <div style="display:flex;justify-content:center;margin-top:2rem">
+      <a class="btn btn--dark" href="https://www.google.com/maps/place/maison+berber+ait+lhsen/data=!4m2!3m1!1s0x486266388935ddd:0x99e505e3918634ea" target="_blank" rel="noopener noreferrer">Read More Reviews on Google</a>
+    </div>
   </div>
-</section>
 
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 <!-- ===================== GUEST EXPERIENCES / GALLERY ===================== -->
 <section class="section section--flush-top exp-gallery" aria-labelledby="exp-title">
   <div class="container">
